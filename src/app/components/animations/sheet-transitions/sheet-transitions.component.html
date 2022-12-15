@@ -1,0 +1,117 @@
+<div class="definition-title">
+  Hoja de referencia de la propiedad transition en CSS
+</div>
+<div class="definition">
+  <section class="left-section">
+    <div class="property-block">
+      <span class="property">Transition: </span>
+      <span>t-property t-duration t-timing-function transition-delay</span>
+      <span class="property-example">[Short hand]</span>
+      <div class="property-example">Ej. transition: all 1s linear 0s</div>
+    </div>
+    <div class="property-block">
+      <span class="property">Transition-property: </span>
+      <span
+        >Especifica el nombre de la propiedad CSS donde se aplicará efecto de la
+        transición</span
+      >
+      <div class="property-example">
+        Ej. transition-property: color, transition-property: border
+      </div>
+    </div>
+    <div class="property-block">
+      <span class="property">Transition-duration: </span>
+      <span
+        >Especifica cuánto tiempo tarda un efecto de transición en
+        completar</span
+      >
+      <div class="property-example">Ej. transition-duration: 1s</div>
+    </div>
+    <div class="property-block">
+      <span class="property">Transition-timing-function*: </span>
+      <span>Especifica la curva de velocidad del efecto de transición</span>
+      <div class="property-example">
+        Ej. transition-timing-function: linear
+      </div>
+    </div>
+    <div class="property-block">
+      <span class="property">Transition-delay: </span>
+      <span
+        >Especifica un retardo para el efecto de transición</span
+      >
+      <div class="property-example">Ej. transition-delay: 1s</div>
+    </div>
+  </section>
+
+  <section class="right-section">
+    <div class="transition-time-funtion-container">
+      <div class="title">
+        <a href="https://codepen.io/Xilerth1/pen/XWYvKMr" class="right-icon" target="_blank"
+          >Transition-timing-function*</a
+        >
+      </div>
+      <div class="row">
+        <div>ease</div>
+        <div>
+          <div class="timing-card" aria-label="slow"></div>
+          <div class="timing-card" aria-label="fast"></div>
+          <div class="timing-card" aria-label="slow"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div>linear</div>
+        <div>
+          <div class="timing-card" aria-label="normal"></div>
+          <div class="timing-card" aria-label="normal"></div>
+          <div class="timing-card" aria-label="normal"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div>ease-in</div>
+        <div>
+          <div class="timing-card" aria-label="slow"></div>
+          <div class="timing-card" aria-label="normal"></div>
+          <div class="timing-card" aria-label="normal"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div>ease-out</div>
+        <div>
+          <div class="timing-card" aria-label="normal"></div>
+          <div class="timing-card" aria-label="normal"></div>
+          <div class="timing-card" aria-label="slow"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div>ease-in-out</div>
+        <div>
+          <div class="timing-card" aria-label="slow"></div>
+          <div class="timing-card" aria-label="normal"></div>
+          <div class="timing-card" aria-label="slow"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <a href="https://cubic-bezier.com/#.17,.67,.83,.67" class="left-icon" target="_blank"
+            >cubic-bezier()</a
+          >
+        </div>
+        <div>(x1,y1,x2,y2)</div>
+      </div>
+    </div>
+    <div class="timing-card-cheeat">
+      <div>
+        <div class="timing-card" aria-label="slow"></div>
+        <span>Slow</span>
+      </div>
+      <div>
+        <div class="timing-card" aria-label="normal"></div>
+        <span>Normal</span>
+      </div>
+      <div>
+        <div class="timing-card" aria-label="fast"></div>
+        <span>Fast</span>
+      </div>
+    </div>
+  </section>
+</div>

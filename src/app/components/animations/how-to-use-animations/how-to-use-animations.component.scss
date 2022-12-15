@@ -1,0 +1,12 @@
+.code-example {
+  animation: breathe 2s infinite alternate;
+}
+
+@keyframes breathe {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

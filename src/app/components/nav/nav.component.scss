@@ -1,0 +1,35 @@
+nav{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    color: white;
+    font-weight: 300;
+    li{
+        cursor: pointer;
+        position: relative;
+        text-align: center;
+        font-size: min(1rem, 4vw);
+        &.active:before{
+            transform: rotateY(360deg);
+        }
+        &:before{
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background: #b19def;
+            position: absolute;
+            bottom: -5px;
+            transform-origin: left;
+            transform:  rotateY(270deg);
+            transition: 0.5s transform;
+        }
+        &:hover{
+            color: #b19def;
+            &:before{
+                transform: rotateY(360deg);
+            }
+        }
+    }
+}
