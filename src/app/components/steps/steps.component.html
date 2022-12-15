@@ -1,7 +1,0 @@
-<div class="steps-container">
-  <div #stepContainer class="step"></div>
-
-  <div class="dots-container">
-    <div class="dot" [class.active]="selectedStep === index" *ngFor="let item of componentsList; index as index" (click)="changeStep(index)"></div>
-  </div>
-</div>
